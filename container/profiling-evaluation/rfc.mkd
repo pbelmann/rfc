@@ -32,9 +32,9 @@ arguments:
        * **predictions**: A list of predicted profiling in bioboxes.org profiling format.
 
 ##### Mounts:
- * Your output directory MUST be mounted to /bbx/mnt/output
- * Your input files MUST be mounted to /bbx/mnt/input
- * The .yaml MUST be placed as /bbx/mnt/input/biobox.yaml
+ * Your output directory MUST be mounted to /bbx/output
+ * Your input files MUST be mounted to /bbx/input
+ * The .yaml MUST be placed as /bbx/input/biobox.yaml
 
 ##### predictions definition: 
 ```YAML
